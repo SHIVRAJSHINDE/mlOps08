@@ -1,0 +1,623 @@
+[2024-01-29 19:11:24,825: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 19:11:24,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 19:11:26,450: INFO: common: created directory at: artifacts]
+[2024-01-29 19:11:26,453: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-29 19:11:26,457: INFO: 586056171: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 19:11:35,401: INFO: 586056171: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 23:22:10,476: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-29 23:22:10,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 23:22:10,489: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 23:22:10,490: INFO: common: created directory at: artifacts]
+[2024-01-29 23:22:10,491: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-29 23:22:10,491: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 23:22:22,924: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 23:22:23,396: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 12:17:27,533: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 12:17:27,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 12:17:27,893: INFO: common: created directory at: artifacts]
+[2024-01-30 12:17:27,914: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 12:17:35,168: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 12:49:51,373: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 12:49:51,477: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 12:49:51,488: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 12:49:51,491: INFO: common: created directory at: artifacts]
+[2024-01-30 12:49:51,492: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 12:49:51,494: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 12:50:00,205: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 12:50:01,222: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 12:50:01,223: INFO: main: *******************]
+[2024-01-30 12:50:01,224: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 12:50:01,227: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 12:50:01,230: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 12:50:01,230: INFO: common: created directory at: artifacts]
+[2024-01-30 12:50:01,231: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 12:50:02,007: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 12:50:03,341: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 13:57:27,297: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 13:57:27,358: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 13:57:27,363: INFO: common: created directory at: artifacts]
+[2024-01-30 13:57:27,372: INFO: common: created directory at: artifacts\training]
+[2024-01-30 14:27:48,528: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 14:27:48,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 14:27:48,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 14:27:48,554: INFO: common: created directory at: artifacts]
+[2024-01-30 14:27:48,555: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 14:27:48,557: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 14:27:53,684: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 14:27:54,550: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 14:27:54,550: INFO: main: *******************]
+[2024-01-30 14:27:54,550: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 14:27:54,553: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 14:27:54,556: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 14:27:54,557: INFO: common: created directory at: artifacts]
+[2024-01-30 14:27:54,558: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 14:27:55,374: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 14:27:56,844: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 14:27:56,845: INFO: main: *******************]
+[2024-01-30 14:27:56,848: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 14:27:56,851: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-30 14:27:56,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 14:27:56,853: INFO: common: created directory at: artifacts]
+[2024-01-30 14:27:56,853: INFO: common: created directory at: artifacts\training]
+[2024-01-30 14:28:39,679: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 17:35:00,470: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 17:35:00,504: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 17:35:00,507: INFO: common: created directory at: artifacts]
+[2024-01-30 17:35:18,413: INFO: common: json file saved at: scores.json]
+[2024-01-30 17:35:27,405: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-30 17:35:28,506: INFO: builder_impl: Assets written to: C:\Users\shind\AppData\Local\Temp\tmp062ght8o\model\data\model\assets]
+[2024-01-30 19:09:14,791: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:09:14,905: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:09:14,917: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:09:14,918: INFO: common: created directory at: artifacts]
+[2024-01-30 19:09:14,919: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:09:14,919: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:09:24,413: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:09:26,148: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:09:26,149: INFO: main: *******************]
+[2024-01-30 19:09:26,149: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:09:26,151: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:09:26,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:09:26,154: INFO: common: created directory at: artifacts]
+[2024-01-30 19:09:26,154: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:09:26,889: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:09:28,077: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:09:28,078: INFO: main: *******************]
+[2024-01-30 19:09:28,078: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:09:28,081: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:09:28,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:09:28,083: INFO: common: created directory at: artifacts]
+[2024-01-30 19:09:28,083: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:10:14,069: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:10:14,071: INFO: main: *******************]
+[2024-01-30 19:10:14,071: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:10:14,075: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:10:14,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:10:14,082: INFO: common: created directory at: artifacts]
+[2024-01-30 19:10:27,555: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:10:27,556: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:10:27,556: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:11:48,227: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:11:48,317: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:11:48,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:11:48,322: INFO: common: created directory at: artifacts]
+[2024-01-30 19:11:48,323: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:11:48,324: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:11:55,093: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:11:55,427: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:11:55,428: INFO: main: *******************]
+[2024-01-30 19:11:55,428: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:11:55,430: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:11:55,432: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:11:55,433: INFO: common: created directory at: artifacts]
+[2024-01-30 19:11:55,433: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:11:56,104: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:11:57,619: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:11:57,620: INFO: main: *******************]
+[2024-01-30 19:11:57,621: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:11:57,624: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:11:57,627: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:11:57,628: INFO: common: created directory at: artifacts]
+[2024-01-30 19:11:57,629: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:12:40,953: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:12:40,957: INFO: main: *******************]
+[2024-01-30 19:12:40,958: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:12:40,964: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:12:40,970: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:12:40,974: INFO: common: created directory at: artifacts]
+[2024-01-30 19:12:55,442: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:12:55,446: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:12:55,447: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:16:09,140: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:16:09,232: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:16:09,239: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:16:09,240: INFO: common: created directory at: artifacts]
+[2024-01-30 19:16:09,240: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:16:09,241: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:16:13,490: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:16:13,843: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:16:13,844: INFO: main: *******************]
+[2024-01-30 19:16:13,844: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:16:13,846: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:16:13,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:16:13,848: INFO: common: created directory at: artifacts]
+[2024-01-30 19:16:13,848: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:16:14,537: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:16:16,929: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:16:16,930: INFO: main: *******************]
+[2024-01-30 19:16:16,930: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:16:16,932: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:16:16,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:16:16,934: INFO: common: created directory at: artifacts]
+[2024-01-30 19:16:16,935: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:17:06,943: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:17:06,946: INFO: main: *******************]
+[2024-01-30 19:17:06,948: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:17:06,954: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:17:06,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:17:06,967: INFO: common: created directory at: artifacts]
+[2024-01-30 19:17:23,437: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:17:23,440: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:17:23,440: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:18:29,991: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:18:30,097: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:18:30,099: INFO: common: created directory at: artifacts]
+[2024-01-30 19:18:49,049: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:18:53,713: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-30 19:18:54,836: INFO: builder_impl: Assets written to: C:\Users\shind\AppData\Local\Temp\tmpojwehkko\model\data\model\assets]
+[2024-01-30 19:29:37,988: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:29:38,020: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:29:38,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:29:38,025: INFO: common: created directory at: artifacts]
+[2024-01-30 19:29:38,025: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:29:38,026: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:29:42,184: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:29:42,694: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:29:42,695: INFO: main: *******************]
+[2024-01-30 19:29:42,695: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:29:42,697: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:29:42,699: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:29:42,699: INFO: common: created directory at: artifacts]
+[2024-01-30 19:29:42,700: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:29:43,369: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:29:45,155: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:29:45,156: INFO: main: *******************]
+[2024-01-30 19:29:45,156: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:29:45,159: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:29:45,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:29:45,161: INFO: common: created directory at: artifacts]
+[2024-01-30 19:29:45,161: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:30:28,801: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:30:28,803: INFO: main: *******************]
+[2024-01-30 19:30:28,803: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:30:28,807: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:30:28,813: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:30:28,817: INFO: common: created directory at: artifacts]
+[2024-01-30 19:30:41,845: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:30:41,845: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:30:41,846: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:31:17,163: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:31:17,167: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:31:17,168: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:31:17,169: INFO: common: created directory at: artifacts]
+[2024-01-30 19:31:17,170: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:31:17,170: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:31:21,067: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:31:21,427: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:31:21,427: INFO: main: *******************]
+[2024-01-30 19:31:21,427: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:31:21,430: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:31:21,432: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:31:21,432: INFO: common: created directory at: artifacts]
+[2024-01-30 19:31:21,433: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:31:22,061: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:31:23,437: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:31:23,438: INFO: main: *******************]
+[2024-01-30 19:31:23,438: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:31:23,441: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:31:23,443: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:31:23,443: INFO: common: created directory at: artifacts]
+[2024-01-30 19:31:23,444: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:32:06,506: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:32:06,508: INFO: main: *******************]
+[2024-01-30 19:32:06,508: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:32:06,512: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:32:06,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:32:06,521: INFO: common: created directory at: artifacts]
+[2024-01-30 19:32:20,939: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:32:20,940: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:32:20,940: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:33:41,087: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:33:41,092: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:33:41,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:33:41,200: INFO: common: created directory at: artifacts]
+[2024-01-30 19:33:41,200: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:33:41,201: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:33:45,285: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:33:45,747: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:33:45,747: INFO: main: *******************]
+[2024-01-30 19:33:45,747: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:33:45,749: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:33:45,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:33:45,751: INFO: common: created directory at: artifacts]
+[2024-01-30 19:33:45,751: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:33:46,381: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:33:48,440: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:33:48,441: INFO: main: *******************]
+[2024-01-30 19:33:48,441: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:33:48,444: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:33:48,446: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:33:48,446: INFO: common: created directory at: artifacts]
+[2024-01-30 19:33:48,447: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:35:13,345: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:35:13,346: INFO: main: *******************]
+[2024-01-30 19:35:13,346: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:35:13,349: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:35:13,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:35:13,351: INFO: common: created directory at: artifacts]
+[2024-01-30 19:35:26,440: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:35:26,441: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:35:26,441: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:37:42,334: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 19:37:42,338: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:37:42,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:37:42,340: INFO: common: created directory at: artifacts]
+[2024-01-30 19:37:42,341: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 19:37:42,341: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:37:46,925: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 19:37:47,462: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 19:37:47,464: INFO: main: *******************]
+[2024-01-30 19:37:47,465: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 19:37:47,467: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:37:47,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:37:47,470: INFO: common: created directory at: artifacts]
+[2024-01-30 19:37:47,470: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 19:37:48,171: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 19:37:48,799: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 19:37:48,800: INFO: main: *******************]
+[2024-01-30 19:37:48,800: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 19:37:48,803: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:37:48,805: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:37:48,805: INFO: common: created directory at: artifacts]
+[2024-01-30 19:37:48,807: INFO: common: created directory at: artifacts\training]
+[2024-01-30 19:39:11,756: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 19:39:11,761: INFO: main: *******************]
+[2024-01-30 19:39:11,761: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 19:39:11,770: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 19:39:11,776: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 19:39:11,778: INFO: common: created directory at: artifacts]
+[2024-01-30 19:39:24,363: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:39:24,364: INFO: common: json file saved at: scores.json]
+[2024-01-30 19:39:24,365: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 20:03:23,200: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 20:03:23,214: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:03:23,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:03:23,221: INFO: common: created directory at: artifacts]
+[2024-01-30 20:03:23,224: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 20:03:23,225: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 20:03:27,230: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 20:03:28,038: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 20:03:28,039: INFO: main: *******************]
+[2024-01-30 20:03:28,039: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 20:03:28,043: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:03:28,046: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:03:28,046: INFO: common: created directory at: artifacts]
+[2024-01-30 20:03:28,047: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 20:03:28,720: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 20:03:30,095: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 20:03:30,096: INFO: main: *******************]
+[2024-01-30 20:03:30,096: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 20:03:30,099: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:03:30,100: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:03:30,101: INFO: common: created directory at: artifacts]
+[2024-01-30 20:03:30,102: INFO: common: created directory at: artifacts\training]
+[2024-01-30 20:04:13,713: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 20:04:13,714: INFO: main: *******************]
+[2024-01-30 20:04:13,714: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 20:04:13,818: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:04:13,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:04:13,828: INFO: common: created directory at: artifacts]
+[2024-01-30 20:04:27,127: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:04:27,128: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:04:31,796: WARNING: connectionpool: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6CC5E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create]
+[2024-01-30 20:04:39,888: WARNING: connectionpool: Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6CC100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create]
+[2024-01-30 20:04:51,960: WARNING: connectionpool: Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6CC220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create]
+[2024-01-30 20:05:12,052: WARNING: connectionpool: Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6CCD00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create]
+[2024-01-30 20:05:48,112: WARNING: connectionpool: Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6CCEB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create]
+[2024-01-30 20:05:52,187: ERROR: main: API request to http://localhost:5000/api/2.0/mlflow/runs/create failed with exception HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/runs/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6E50A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))]
+Traceback (most recent call last):
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000217CD6E50A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/runs/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6E50A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\utils\rest_utils.py", line 167, in http_request
+    return _get_http_response_with_retries(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\utils\rest_utils.py", line 98, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/runs/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6E50A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 53, in <module>
+    model_evalution.main()
+  File "d:\machinelearningprojects\project\mlops\mlops08\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "d:\machinelearningprojects\project\mlops\mlops08\src\cnnClassifier\components\model_evaluation_mlflow.py", line 59, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\utils\rest_utils.py", line 278, in call_endpoint
+    response = http_request(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\mlflow\utils\rest_utils.py", line 185, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://localhost:5000/api/2.0/mlflow/runs/create failed with exception HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/runs/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217CD6E50A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2024-01-30 20:07:39,261: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:07:39,361: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:07:39,362: INFO: common: created directory at: artifacts]
+[2024-01-30 20:07:56,800: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:08:01,911: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-30 20:08:02,714: INFO: builder_impl: Assets written to: C:\Users\shind\AppData\Local\Temp\tmpxc5chh9e\model\data\model\assets]
+[2024-01-30 20:12:50,300: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 20:12:50,391: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:12:50,395: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:12:50,397: INFO: common: created directory at: artifacts]
+[2024-01-30 20:12:50,407: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 20:12:50,407: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 20:12:55,254: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 20:12:57,098: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 20:12:57,098: INFO: main: *******************]
+[2024-01-30 20:12:57,099: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 20:12:57,101: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:12:57,103: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:12:57,103: INFO: common: created directory at: artifacts]
+[2024-01-30 20:12:57,104: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 20:12:57,808: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 20:12:59,646: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 20:12:59,647: INFO: main: *******************]
+[2024-01-30 20:12:59,648: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 20:12:59,650: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:12:59,651: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:12:59,653: INFO: common: created directory at: artifacts]
+[2024-01-30 20:12:59,653: INFO: common: created directory at: artifacts\training]
+[2024-01-30 20:13:46,324: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 20:13:46,328: INFO: main: *******************]
+[2024-01-30 20:13:46,329: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 20:13:46,332: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:13:46,339: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:13:46,341: INFO: common: created directory at: artifacts]
+[2024-01-30 20:13:59,045: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:13:59,046: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:14:02,948: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-30 20:14:03,589: INFO: builder_impl: Assets written to: C:\Users\shind\AppData\Local\Temp\tmp2_bia_80\model\data\model\assets]
+[2024-01-30 20:14:37,174: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-30 20:15:14,224: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-30 20:15:14,226: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:15:14,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:15:14,229: INFO: common: created directory at: artifacts]
+[2024-01-30 20:15:14,230: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-30 20:15:14,230: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 20:15:18,175: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-30 20:15:18,523: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-30 20:15:18,523: INFO: main: *******************]
+[2024-01-30 20:15:18,524: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-30 20:15:18,526: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:15:18,528: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:15:18,528: INFO: common: created directory at: artifacts]
+[2024-01-30 20:15:18,529: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-30 20:15:19,078: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-30 20:15:19,906: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-30 20:15:19,907: INFO: main: *******************]
+[2024-01-30 20:15:19,907: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-30 20:15:19,911: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:15:19,914: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:15:19,915: INFO: common: created directory at: artifacts]
+[2024-01-30 20:15:19,915: INFO: common: created directory at: artifacts\training]
+[2024-01-30 20:16:54,881: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-30 20:16:54,889: INFO: main: *******************]
+[2024-01-30 20:16:54,889: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-30 20:16:54,900: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-01-30 20:16:54,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-30 20:16:54,910: INFO: common: created directory at: artifacts]
+[2024-01-30 20:17:07,886: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:17:07,887: INFO: common: json file saved at: scores.json]
+[2024-01-30 20:17:12,164: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-30 20:17:12,773: INFO: builder_impl: Assets written to: C:\Users\shind\AppData\Local\Temp\tmpdw3oy1xb\model\data\model\assets]
+[2024-01-30 20:17:54,644: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-01 16:32:28,549: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-01 16:32:28,569: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-01 16:32:28,575: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-01 16:32:28,580: INFO: common: created directory at: artifacts]
+[2024-02-01 16:32:28,580: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-01 16:32:28,580: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-01 16:32:34,253: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-01 16:32:36,248: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-01 16:33:18,339: INFO: stage_02_prepare_base_model: *******************]
+[2024-02-01 16:33:18,452: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-01 16:33:18,456: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-01 16:33:18,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-01 16:33:18,463: INFO: common: created directory at: artifacts]
+[2024-02-01 16:33:18,483: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-01 16:33:19,231: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-01 16:33:19,842: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-01 16:33:56,579: INFO: stage_03_model_trainer: *******************]
+[2024-02-01 16:33:56,589: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-02-01 16:33:56,592: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-01 16:33:56,597: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-01 16:33:56,598: INFO: common: created directory at: artifacts]
+[2024-02-01 16:33:56,631: INFO: common: created directory at: artifacts\training]
+[2024-02-01 16:35:30,716: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-01 16:36:06,597: INFO: stage_04_model_evaluation: *******************]
+[2024-02-01 16:36:06,685: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-01 16:36:06,687: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-01 16:36:06,692: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-01 16:36:06,693: INFO: common: created directory at: artifacts]
+[2024-02-01 16:36:21,636: INFO: common: json file saved at: scores.json]
+[2024-02-01 16:36:21,638: INFO: common: json file saved at: scores.json]
+[2024-02-01 16:36:25,594: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-02-01 16:36:26,252: INFO: builder_impl: Assets written to: C:\Users\shind\AppData\Local\Temp\tmp7onggedb\model\data\model\assets]
+[2024-02-01 16:37:14,576: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-01 17:06:29,704: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.26.13.160:8080]
+[2024-02-01 17:06:29,714: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-01 17:06:47,371: INFO: _internal: 172.26.13.160 - - [01/Feb/2024 17:06:47] "GET / HTTP/1.1" 200 -]

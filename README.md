@@ -72,6 +72,6 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_REGION = us-east-1
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
-ECR_REPOSITORY_NAME = simple-app
-905418096737.dkr.ecr.eu-north-1.amazonaws.com/kidney
+AWS_ECR_LOGIN_URI = 905418096737.dkr.ecr.eu-north-1.amazonaws.com
+ECR_REPOSITORY_NAME = kidney
+

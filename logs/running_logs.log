@@ -621,3 +621,84 @@ x==========x]
  * Running on http://172.26.13.160:8080]
 [2024-02-01 17:06:29,714: INFO: _internal: [33mPress CTRL+C to quit[0m]
 [2024-02-01 17:06:47,371: INFO: _internal: 172.26.13.160 - - [01/Feb/2024 17:06:47] "GET / HTTP/1.1" 200 -]
+[2024-02-02 17:21:16,850: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.26.13.160:8080]
+[2024-02-02 17:21:16,869: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-02 17:22:17,671: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:22:17] "GET / HTTP/1.1" 200 -]
+[2024-02-02 17:22:30,161: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 46, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\machinelearningprojects\project\mlops\mlops08\src\cnnClassifier\pipeline\prediction.py", line 17, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\shind\anaconda3\envs\envCancerMlOps\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-02-02 17:22:30,283: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:22:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-02-02 17:31:10,862: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:31:10] "GET / HTTP/1.1" 200 -]
+[2024-02-02 17:31:50,507: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.26.13.160:8080]
+[2024-02-02 17:31:50,591: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-02 17:31:58,981: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:31:58] "GET / HTTP/1.1" 200 -]
+[2024-02-02 17:32:17,146: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:32:17] "POST /predict HTTP/1.1" 200 -]
+[2024-02-02 17:34:54,445: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:34:54] "GET / HTTP/1.1" 200 -]
+[2024-02-02 17:35:13,175: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-02 17:35:13,423: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-02 17:35:13,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-02 17:35:13,459: INFO: common: created directory at: artifacts]
+[2024-02-02 17:35:13,460: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-02 17:35:13,460: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-02 17:35:26,267: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-02 17:35:29,781: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-02 17:35:29,782: INFO: main: *******************]
+[2024-02-02 17:35:29,782: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-02 17:35:29,804: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-02 17:35:29,816: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-02 17:35:29,818: INFO: common: created directory at: artifacts]
+[2024-02-02 17:35:29,819: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-02 17:35:32,307: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-02 17:35:36,583: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-02 17:35:36,584: INFO: main: *******************]
+[2024-02-02 17:35:36,584: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-02-02 17:35:36,588: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-02 17:35:36,591: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-02 17:35:36,592: INFO: common: created directory at: artifacts]
+[2024-02-02 17:35:36,594: INFO: common: created directory at: artifacts\training]
+[2024-02-02 17:38:43,226: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-02 17:38:43,322: INFO: main: *******************]
+[2024-02-02 17:38:43,323: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-02 17:38:43,357: INFO: common: yaml file: D:\MachineLearningProjects\PROJECT\mlOps\mlOps08\config\config.yaml loaded successfully]
+[2024-02-02 17:38:43,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-02 17:38:43,372: INFO: common: created directory at: artifacts]
+[2024-02-02 17:39:05,578: INFO: common: json file saved at: scores.json]
+[2024-02-02 17:39:05,676: INFO: common: json file saved at: scores.json]
+[2024-02-02 17:39:05,680: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-02 17:39:09,269: INFO: _internal: 172.26.13.160 - - [02/Feb/2024 17:39:09] "GET /train HTTP/1.1" 200 -]
